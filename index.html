@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Verenluovutuslaskuri</title>
+        <meta name="description" content="Kertoo milloin saat seuraavan kerran luovuttaa verta.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <main>
+            <h1>Verenluovutuslaskuri</h1>
+            <h2>Milloin luovutit viimeksi verta?</h2>
+            <label for="date">Edellinen verenluovutus:</label>
+            <input type="date" id="date-input">
+            <label for="sex">Sukupuoli:</label>
+            <select name="sex" id="sex">
+                <option value="1">Mies</option>
+                <option value="2">Nainen</option>
+            </select>
+            <input type="submit" id="date-button">
+            <p>Verenluovutusten minimiväli on miehillä 61 vrk ja naisilla 91 vrk.</p>
+            <div>
+                <h2 id="date-output1"></h2>
+                <h2 id="date-output2"></h2>
+            </div>
+        </main>
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>

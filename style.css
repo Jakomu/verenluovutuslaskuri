@@ -1,0 +1,49 @@
+body {
+    background-color: whitesmoke;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+main {
+    border: red;
+    border-style: ridge;
+    border-width: 3px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+main label {
+    display: block;
+    padding: 20px;
+}
+
+#date-button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-style: none;
+    display: block;
+    margin: 20px auto;
+}
+
+#date-output1 {
+    margin-top: 50px;
+}
+
+@media (max-width: 900px) {
+    body {
+        width: 70%;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        width: 90%;
+        margin: 20px;
+        padding-top: 20px;
+    }
+}
